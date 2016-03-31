@@ -1,0 +1,17 @@
+#notification {
+	border: 5px solid red;
+	font-size: 40px;
+	color: red;
+}
+
+#notification .error {
+	background: blue;
+}
+<!-- The space between the ID and the CLASS means that the style applies to both elemts -- > 
+
+#notification.error {
+	background: yellow;
+}
+
+<!-- no space between the ID and CLASS means that the element needs to have both-- >
+

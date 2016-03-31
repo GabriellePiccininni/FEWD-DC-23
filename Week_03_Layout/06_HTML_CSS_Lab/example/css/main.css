@@ -49,14 +49,21 @@ header {
  * DIFFERENT SECTIONS, DIFFERENT STYLES
  */
 
+section {
+	width: 33.33%;
+}
+
 #section1 {
 	background-color: #ff9999;
+	float: left;
 }
 
 #section2 {
 	background-color: #99ff99;
+	float: left;
 }
 
 #section3 {
 	background-color: #9999ff;
+	float: right;
 }

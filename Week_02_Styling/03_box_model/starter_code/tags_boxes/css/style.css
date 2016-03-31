@@ -1,0 +1,34 @@
+body{
+	margin: 30px 100px 30px 100px;
+}
+h1 {
+	background: red;
+	padding: 50px;
+	border: 10px dashed black;
+}
+
+p {
+	background: blue;
+	color: white;
+	padding: 10px;
+	border: 10px solid black;
+}
+
+.mydiv p {
+	background: yellow;
+}
+
+code {
+	background: white;
+	color: black;
+	padding: 5px;
+	border: 2px solid black;
+}
+h2 {
+	color: green;
+
+}
+
+.codelist {
+	padding: 10px;
+}
