@@ -51,6 +51,7 @@ header {
 
 section {
 	width: 33.33%;
+	float: left;
 }
 
 #section1 {
@@ -67,3 +68,36 @@ section {
 	background-color: #9999ff;
 	float: right;
 }
+
+
+@media only screen and (max-width: 768px) {
+	section {
+		width: 50%;
+	}
+	#section1 {
+		float: left;
+	}
+	#section2 {
+		float: right;
+	}
+	#section3 {
+		width: 100%;
+	}
+}
+/* Here: section three will remain 100% regardless of 
+   50% width tag at the top b/c IDs are greater than 
+   tags */
+
+@media only screen and (max-width: 400px) {
+	section {
+		width: 100%;
+		float: none;
+	}
+}
+
+
+
+
+
+
+
