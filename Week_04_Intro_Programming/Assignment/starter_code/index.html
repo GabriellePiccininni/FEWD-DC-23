@@ -77,4 +77,36 @@
 			<p class="copyright">Copyright 2015. Relaxr.</p>
 		</footer>
 	</body>
+
+	<script>
+		$("document").ready(function(){
+			$(".readmore").click(function(event){
+				event.preventDefault();
+				$(".readmore").hide();
+				$("#show-this-on-click").slideDown(300);
+				$(".readless.hide").show();
+				
+				});
+			$(".readless.hide").click(function(event){
+				event.preventDefault();
+				$(".readless.hide").hide();
+				$("#show-this-on-click").slideUp(300);
+				$(".readmore").show();
+			});	
+		});
+
+		$("document").ready(function(){
+			$(".learnmore").click(function(event){
+				event.preventDefault();
+				$(".learnmore").hide();
+				$("#learnmoretext").slideDown(300);
+			})
+		})
+			
+
+
+	</script>
+
+
+
 </html>
