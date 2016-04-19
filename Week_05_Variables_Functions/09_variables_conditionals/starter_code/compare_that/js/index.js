@@ -3,6 +3,7 @@ $(document).ready(function() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	var a;
 	var b;
 	var myName = "Bob";
@@ -53,6 +54,8 @@ $(document).ready(function() {
 >>>>>>> ga-students/master
 =======
 >>>>>>> ga-students/master
+=======
+>>>>>>> ga-students/master
     var a;
     var b;
 
@@ -92,6 +95,9 @@ $(document).ready(function() {
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ga-students/master
+=======
 >>>>>>> ga-students/master
 =======
 >>>>>>> ga-students/master
