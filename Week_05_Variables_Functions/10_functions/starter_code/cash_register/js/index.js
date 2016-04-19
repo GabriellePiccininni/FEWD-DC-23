@@ -1,6 +1,7 @@
 $(document).ready(function() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	//This is the total of the cash register when I load the page
 	var total = 0;
 
@@ -24,6 +25,8 @@ $(document).ready(function() {
 =======
 =======
 >>>>>>> ga-students/master
+=======
+>>>>>>> ga-students/master
     // This is the total of my register when I load page.
     var total = 0;
 
@@ -43,6 +46,9 @@ $(document).ready(function() {
         $('#total').html(total);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ga-students/master
+=======
 >>>>>>> ga-students/master
 =======
 >>>>>>> ga-students/master
