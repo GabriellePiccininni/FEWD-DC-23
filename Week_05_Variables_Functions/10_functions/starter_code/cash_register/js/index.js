@@ -7,7 +7,7 @@ $(document).ready(function() {
 
 	function useRegister(event) {
 		event.preventDefault();
-		//Get what the user enterd. 
+		//Get what the user entered. 
 		var newEntry = $('#newEntry').val();
 		$('#entries').html('<td>' + newEntry + '</td>');
 

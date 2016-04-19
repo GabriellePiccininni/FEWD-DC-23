@@ -14,7 +14,7 @@ $(document).ready(function() {
 	whatIsMyName (myName);
 
 	//OR you do not need to define the variable at the top of the page and can just pass in a String Literal
-	//this is more common with complex code. B/c doesn't really matter how you define a function, just that the instructions of the functione exist.
+	//this is more common with complex code. B/c doesn't really matter how you define a function, just that the instructions of the function exist.
 	//more important to know what you are passing into the function.
 	whatIsMyName ('Jane')
 
@@ -37,13 +37,11 @@ $(document).ready(function() {
 			$('#comparison').html('>');
 			$('body').removeClass('greenBackground') // this removes a specific class
 			$('body').addClass('pinkBackground') //do not need the . because the function is to add a Class.
-		} 
-		else if (a < b) {
+		} else if (a < b) {
 			$('#comparison').html('<');
 			$('body').removeClass()  // this removes all classes 
 			$('body').addClass('greenBackground')
-		}
-		else if (a == b) {
+		} else if (a == b) {
 			$('#comparison').html('=');
 		}
 	}
