@@ -82,7 +82,7 @@ nav .line:first-of-type{
 #page-header nav li {
 	float: left;
 }
-#page-header nav li:first-child{
+#page-header nav li:first-child{ /* the first child pseudo selector refers to the hamburger menu*/
 	float:right;
 	display: none;
 	cursor: pointer;
@@ -164,4 +164,33 @@ footer {
 	background: black;
 	color: white;
 	padding: 2% 3%;
+}
+
+.slideDown{
+	display: block;
+
+}
+
+@media only screen and (max-width: 768px) {
+		.tagline{
+			display: none;
+		}
+		#page-header nav li:first-child{
+			display: inline-block;
+		}
+		#page-header nav strong {
+			display: none;
+		}
+		.tout{
+			width: 100%;
+			/* or can do float: none */
+		}
+		.blurb > p:first-of-type{
+			display: hide;
+		}
+		.blurb {
+			padding: 2%;
+			transition: width 500ms;
+		}
+
 }
