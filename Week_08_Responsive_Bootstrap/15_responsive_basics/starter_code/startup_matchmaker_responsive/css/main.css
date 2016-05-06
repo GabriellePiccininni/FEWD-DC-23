@@ -138,8 +138,11 @@ nav .line:first-of-type{
 	box-shadow: 0 0 5px rgba(0,0,0,.75);
 	transition: width 500ms;
 }
-.blurb > p:first-of-type{
-	margin-bottom:0;
+.blurb > p:first-of-type{ /*i want to find a DIRECT child of a p element that has a class of blurb*/
+	/*first-of-type that is the first p tag that is a DIRECT child...*/
+	/*the > acts as an arrow. */
+	/*BETTER PRACTICE: add a class to all the elements that you want to hide at a certain browser size*/
+		margin-bottom:0;
 }
 .touts {
 	background: #EEE;
@@ -178,7 +181,7 @@ footer {
 		#page-header nav li:first-child{
 			display: inline-block;
 		}
-		#page-header nav strong {
+		#page-header nav li {
 			display: none;
 		}
 		.tout{

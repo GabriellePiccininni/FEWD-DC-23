@@ -34,4 +34,29 @@ img {
     background: #eee;
     margin: 0.5em;
     padding: 1em;
+    flex-basis: 300px;
 }
+
+.animals {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 800px;
+ 
+    justify-content: center;
+}
+
+@media screen and )max-width: 800px){
+    .amimals{
+        flex-direction:row;
+    }
+}
+
+@media screen and (max-width: ){
+    .animals {
+        display: block;
+    }
+
+}
+
+
