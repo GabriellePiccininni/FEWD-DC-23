@@ -178,7 +178,7 @@ footer {
 }
 @media screen and (max-width: 768px){
 	body{
-		font-size: 16px;
+		font-size: 16px; 
 	}
 	nav{
 		width:100%;
@@ -198,10 +198,7 @@ footer {
 	}
 	#page-header nav li:first-child{
 		display:block;
-		position: absolute;
-		top:.25em;
-		right:.5em;
-	}
+			}
 	ul{
 		height:0;
 		transition:height 1s;
